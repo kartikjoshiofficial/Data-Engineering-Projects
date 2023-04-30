@@ -4,10 +4,10 @@ import json
 from datetime import datetime
 import s3fs
 
-access_key="6YC6jjM0hd33eoFJuGRYxFoRk"
-access_secret="croMFUr5SpG3IQwXqq0uMyzDxXwOImk54IKAps3VFrfMdQc5FC"
-consumer_key="1612316174519537665-gOrCCgqWvYD5L9khPnn3cVGlVGqMKp"
-consumer_secret="wAvFwzIngQARbUumg5rNlzloVpAQ16cHcivkBN1HQouNt"
+access_key="6****************************k"
+access_secret="c******************************FC"
+consumer_key="1*****************************************p"
+consumer_secret="w***************************************Nt"
 
 
 #twitter authentication      https://docs.tweepy.org/en/stable/authentication.html
@@ -43,4 +43,4 @@ for tweet in tweets:
     tweet_list.append(refined_tweet)
     
 df =  pd.DataFrame(tweet_list)
-df.to_csv("D:/Data Engineer Projects/twitter_etl/twitter_data.csv")
+df.to_csv("twitter_data.csv")
